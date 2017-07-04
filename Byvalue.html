@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>thenewboston</title>
+    <script src="/home/mayur/handson/JavaScript/app.js"></script>
+   <script>
+
+   console.log(this);
+       function a()
+       {
+
+           var a=3;
+           var b;
+           b=a;
+          console.log(a);
+           console.log(b);
+                
+       }
+
+       var c={greetings:'hi'};
+       var d;
+       d=c;
+       c.greetings='hellowelcome';
+        console.log(c);
+        console.log(d);
+
+
+       function ref(obj)
+       {
+        obj.greetings='hola';
+       }
+
+       ref(d);
+        console.log(c);
+        console.log(d);
+
+    </script>
+
+
+
+</head>
+<body>
+
+    <div id="content"></div>
+
+  <script>//a();</script>
+</body>
+</html>
